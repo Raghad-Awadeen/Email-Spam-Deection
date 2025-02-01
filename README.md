@@ -17,7 +17,7 @@ The dataset consists of email samples labeled as **spam** or **ham (not spam)**.
 ## 🛠️ Skills Applied  
 ✔ **Text Preprocessing** (tokenization, stopword removal, stemming)  
 ✔ **Feature Extraction** (TF-IDF, Count Vectorization, Word Embeddings)  
-✔ **Machine Learning Model Development** (Logistic Regression, Naïve Bayes, SVM)  
+✔ **Machine Learning Model Development** (MiniBatch K-means)  
 ✔ **Hyperparameter Tuning & Model Optimization**  
 ✔ **Clustering & Pattern Recognition** (for spam behavior analysis)  
 
@@ -29,15 +29,14 @@ The dataset consists of email samples labeled as **spam** or **ham (not spam)**.
    - Tokenize and apply **stopword removal & stemming/lemmatization**.  
 
 2️⃣ **Feature Engineering**  
-   - Convert text into numerical representations (**TF-IDF, Bag of Words, Word2Vec**).  
-   - Extract additional features like **email length, special characters, sender metadata**.  
+   - Convert text into numerical representations (**TF-IDF, Bag of Words**).  
 
 3️⃣ **Model Development & Training**  
-   - Train models: **Naïve Bayes, Logistic Regression, SVM, Random Forest**.  
-   - Compare performance using **accuracy, precision, recall, and F1-score**.  
+   - Train models: **MiniBatch K-mean**.  
+   - Compare performance using **accuracy, precision**.  
 
 4️⃣ **Performance Evaluation**  
-   - Use **Confusion Matrix, ROC-AUC Curve** to assess model effectiveness.  
+   - Use **ROC-AUC Curve** to assess model effectiveness.  
    - Optimize models with **hyperparameter tuning**.  
 
 5️⃣ **Spam Pattern Analysis**  
@@ -48,14 +47,10 @@ The dataset consists of email samples labeled as **spam** or **ham (not spam)**.
 
 ## 📊 Key Insights  
 📌 **What words are commonly found in spam?**  
-   - Common spam keywords: **"win", "free", "click here", "urgent", "credit card"**.  
 
 📌 **Which model performed best?**  
-   - **Naïve Bayes showed the highest accuracy** due to its effectiveness in text classification.  
 
 📌 **How can this model be used in real life?**  
-   - Integrate into **email servers** for automatic spam filtering.  
-   - Improve **corporate email security** against phishing attempts.  
 
 ---
 
