@@ -56,7 +56,7 @@ The dataset consists of email samples labeled as **spam** or **ham (not spam)**.
 
 ## 🖥️ Technologies Used  
 - **Python** (pandas, numpy, scikit-learn, nltk, matplotlib, seaborn)  
-- **Machine Learning Algorithms** (Naïve Bayes, Logistic Regression, SVM)  
+- **Machine Learning Algorithms** (MiniBatch K-means)  
 - **Natural Language Processing (NLP) for Text Analysis**  
 - **Jupyter Notebook for Data Exploration & Model Training**  
 
